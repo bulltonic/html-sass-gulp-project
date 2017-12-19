@@ -12,9 +12,7 @@
 4. [TweenMax by Greensock](https://greensock.com/tweenmax)
 5. [SlickSlider by Ken Wheeler](kenwheeler.github.io/slick/)
 6. [SVG for Everybody](https://jonathantneal.github.io/svg4everybody/)
-7. [Covervid](http://stefanerickson.github.io/covervid/)
-
-   Make your HTML5 video behave like a background cover image with this lightweight Javascript plugin / jQuery extension 
+7. [Covervid](http://stefanerickson.github.io/covervid/): Make your HTML5 video behave like a background cover image with this lightweight Javascript plugin / jQuery extension 
 8. [Video.js](http://videojs.com/)
 
 ### Working with [Gulp.js](https://gulpjs.com/)
