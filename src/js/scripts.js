@@ -18,4 +18,10 @@ $(document).ready(function(){
 	//   document.body.insertBefore(div, document.body.childNodes[0]);
 	// });
 
+	onboarding({
+	    start: '1',
+	});
+
+	// console.log(onboarding.settings);
+
 });
