@@ -16,7 +16,6 @@ div[data-onboard] {
 			width: 100%;
 			height: 100%;
 			opacity: 1;
-			transform: scale(1);
 		}
 	}
 	&:before {
@@ -27,7 +26,6 @@ div[data-onboard] {
 		left: 0;
 		width: 100%;
 		height: 100%;
-		transform: scale(.9);
 		opacity: 0;
 		background: white;
 		transition: .3s ease all;
@@ -42,12 +40,27 @@ div[data-onboard] {
 .onboarding-instruction {
 	opacity: 0;
 	transition: .3s ease all;
-	.initial-step & {
+	.step-controls {
+		float: right;
+	}
+	.finished-button {
+		display: none;
+	}
+	.previous-button,
+	.next-button {
+		display: inline-block;
+	}
+}
+.disable-previous {
+	.onboarding-instruction {
 		.previous-button {
 			display: none;
 		}
 	}
-	.final-step & {
+
+}
+.disable-next {
+	.onboarding-instruction {
 		.next-button {
 			display: none;
 		}
@@ -55,16 +68,7 @@ div[data-onboard] {
 			display: inline-block;
 		}
 	}
-	.step-controls {
-		float: right;
-	}
-	.previous-button,
-	.next-button {
-		display: inline-block;
-	}
-	.finished-button {
-		display: none;
-	}
+
 }
 .onboarding-instruction {
 	opacity: 1;

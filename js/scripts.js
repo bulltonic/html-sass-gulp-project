@@ -19,10 +19,9 @@ $(document).ready(function(){
 	// });
 
 	onboarding({
-	    start: '1',
 	});
 
 	// console.log(onboarding.settings);
 
-});
+})
 //# sourceMappingURL=maps/scripts.js.map
